@@ -5,7 +5,7 @@ import "../Header.css";
 
 const NavLinks = () => {
 	return (
-		<div className="col-7 d-flex justify-content-evenly">
+		<div className="col-5 d-flex justify-content-evenly">
 			<Link to="/" className="text-decoration-none text-white link">
 				HOME
 			</Link>

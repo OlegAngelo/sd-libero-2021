@@ -1,7 +1,7 @@
 import React from "react";
 
 const WorldPage = () => {
-	return <div>World Page</div>;
+	return <div className="container">World Page</div>;
 };
 
 export default WorldPage;

@@ -1,7 +1,7 @@
 import React from "react";
 
 const NewsPage = () => {
-	return <div>News Page</div>;
+	return <div className="container">News Page</div>;
 };
 
 export default NewsPage;

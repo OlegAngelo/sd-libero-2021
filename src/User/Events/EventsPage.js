@@ -1,7 +1,7 @@
 import React from "react";
 
 const EventsPage = () => {
-	return <div>Events Page</div>;
+	return <div className="container">Events Page</div>;
 };
 
 export default EventsPage;
