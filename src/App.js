@@ -5,13 +5,13 @@ import LandingPage from "./User/LandingPage/LandingPage.js";
 import NewsPage from "./User/News/NewsPage.js";
 import EventsPage from "./User/Events/EventsPage.js";
 import WorldPage from "./User/World/WorldPage.js";
-import NavigationBar from "./User/LandingPage/Header/NavigationBar.js";
+import Header from "./User/LandingPage/Header/Header.js";
 
 const App = () => {
 	return (
-		<div>
-			<NavigationBar />
+		<div className="w-full">
 			<Router>
+				<Header />
 				<Routes>
 					<Route path="/" exact element={<LandingPage />} />
 					<Route path="/news" exact element={<NewsPage />} />
