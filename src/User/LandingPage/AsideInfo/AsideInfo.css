@@ -1,0 +1,45 @@
+.aside-container {
+	margin: 20px 0 0 0;
+	width: 300px;
+}
+.border-line {
+	border: 7px solid #358fff;
+	margin: 10px 0 10px 0;
+}
+.aside__heading-text {
+	font-size: 25pt;
+	font-weight: bold;
+}
+.text-design.img-text {
+	font-size: 19pt;
+	text-align: center;
+}
+.text-design.small-text {
+	color: #000045;
+	font-size: 18px;
+}
+.aside-img1 {
+	background-image: url("./img/1b.jpg");
+	height: 150px;
+	position: relative;
+	cursor: pointer;
+	filter: contrast(70%);
+}
+.aside-img2 {
+	background-image: url("./img/1c.jpg");
+	height: 150px;
+	position: relative;
+	filter: contrast(70%);
+	cursor: pointer;
+}
+.readMore-link {
+	background-color: #358fff;
+	color: white;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.readMore-link:hover {
+	text-decoration: none;
+	color: white;
+}

@@ -8,10 +8,10 @@ import liberologo from "./img/liberologo.png";
 
 const LiberoLogo = () => {
 	return (
-		<div className="col-3 d-flex justify-content-evenly">
+		<div className="col-4 d-flex justify-content-end">
 			<FontAwesomeIcon icon={faBars} className="menuLogo" />
 
-			<img src={liberologo} />
+			<img src={liberologo} className="mx-5" />
 		</div>
 	);
 };

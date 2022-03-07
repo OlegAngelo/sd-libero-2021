@@ -1,56 +1,62 @@
 import React from "react";
 
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./Survey.css";
+
 const Survey = () => {
 	return (
 		<div>
 			<form>
-				<div>How do you feel about recycling ?</div>
-				<div className="form-group">
-					<label for="postcode">Postcode:</label>
-					<input
-						type="tel"
-						class="form-control"
-						id="postcode"
-						placeholder="6000"
-					/>
+				<div className="main__heading-text">
+					How do you feel about recycling ?
 				</div>
-
-				<div>
-					Should the government start enforcing garbage separation and recycling
-					schemes across your area?
-				</div>
-
-				<div>
-					<div class="form-check">
-						<input
-							class="form-check-input"
-							type="radio"
-							name="exampleRadios"
-							id="exampleRadios1"
-							value="option1"
-							checked
-						/>
-						<label class="form-check-label" for="yes">
-							Yes
+				<div className="mx-5">
+					<div>
+						<label for="postcode" className="text-design mt-4">
+							Postcode:
 						</label>
+						<br />
+						<input type="tel" className="postcode-input" id="postcode" />
 					</div>
 
-					<div class="form-check">
-						<input
-							class="form-check-input"
-							type="radio"
-							name="exampleRadios"
-							id="exampleRadios2"
-							value="option2"
-						/>
-						<label class="form-check-label" for="no">
-							No
-						</label>
+					<div className="text-design">
+						<p className="mt-5">
+							Should the government start enforcing <br />
+							garbage separation and recycling schemes <br />
+							across your area?
+						</p>
 					</div>
 
-					<button type="submit" className="btn btn-primary mb-2">
-						Submit
-					</button>
+					<div>
+						<div className="custom-radio">
+							<input
+								className="form-check-input"
+								type="radio"
+								name="yesNoBtn"
+								id="yes"
+								checked
+							/>
+							<label for="yes" className="radio-text">
+								Yes
+							</label>
+						</div>
+
+						<div className="custom-radio">
+							<input
+								className="form-check-input"
+								type="radio"
+								name="yesNoBtn"
+								id="no"
+							/>
+							<label for="no" className="radio-text">
+								No
+							</label>
+						</div>
+
+						<button type="submit" className="btn rounded-pill submit-btn">
+							Submit
+						</button>
+					</div>
 				</div>
 			</form>
 		</div>
