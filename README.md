@@ -1,6 +1,6 @@
 To run: 
 1. clone repository
-2. cd <repository>
+2. cd repository
 3. npm install
 4. npm start
 
