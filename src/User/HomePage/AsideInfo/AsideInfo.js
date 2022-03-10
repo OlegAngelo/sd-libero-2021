@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./AsideInfo.css";
 
@@ -7,9 +8,7 @@ const AsideInfo = () => {
 		<aside>
 			<div className="aside-container">
 				<div>
-					<h1 class="text-design aside__heading-text">
-						Phasellus augue sapien
-					</h1>
+					<h1 class="text-design aside__heading-text">Worldwide Events</h1>
 				</div>
 
 				<div class="border-line"></div>
@@ -19,9 +18,9 @@ const AsideInfo = () => {
 						Vestibulum sit amet tempor orci
 					</p>
 
-					<a href="#" class="readMore-link">
+					<Link to="/events" class="readMore-link">
 						{"Read more >>"}
-					</a>
+					</Link>
 				</div>
 
 				<div>
@@ -37,9 +36,9 @@ const AsideInfo = () => {
 						Integer consectetur orci ligula
 					</p>
 
-					<a href="/" class="readMore-link">
+					<Link to="/events" class="readMore-link">
 						{"Read more >>"}
-					</a>
+					</Link>
 				</div>
 
 				<div>

@@ -10,7 +10,7 @@ import NavLinks from "./NavLinks/NavLinks.js";
 
 const Header = () => {
 	return (
-		<div className="py-5 header mb-5">
+		<div className="py-5 header sticky-top">
 			<div className="row">
 				<LiberoLogo />
 

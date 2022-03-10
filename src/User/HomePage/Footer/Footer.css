@@ -1,0 +1,7 @@
+.blue-circle {
+	border: 7px solid #358fff;
+	border-radius: 50%;
+	background-color: #358fff;
+	width: 30px;
+	height: 30px;
+}

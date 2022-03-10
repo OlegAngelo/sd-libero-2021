@@ -1,12 +1,12 @@
 import React from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./LandingPage.css";
+import "./HomePage.css";
 
 import Survey from "./Survey/Survey.js";
 import AsideInfo from "./AsideInfo/AsideInfo.js";
 
-const LandingPage = () => {
+const HomePage = () => {
 	return (
 		<div className="container d-flex justify-content-evenly py-5">
 			<Survey />
@@ -18,4 +18,4 @@ const LandingPage = () => {
 	);
 };
 
-export default LandingPage;
+export default HomePage;

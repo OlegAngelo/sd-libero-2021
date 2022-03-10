@@ -1,0 +1,20 @@
+{
+	"footerLinks": [
+		{
+			"title": "Rutrum",
+			"links": ["Fermentum", "Neque", "Consequat"]
+		},
+		{
+			"title": "Malesuada",
+			"links": ["Tellus", "Condimentum", "Consectetur"]
+		},
+		{
+			"title": "Pellentesque",
+			"links": ["Habitant", "Morbi", "Tristique"]
+		},
+		{
+			"title": "Quisque",
+			"links": ["Pharetra", "Volutpat", "Tristique"]
+		}
+	]
+}
