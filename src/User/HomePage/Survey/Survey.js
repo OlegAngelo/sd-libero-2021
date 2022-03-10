@@ -54,7 +54,7 @@ const Survey = () => {
 						</div>
 
 						<button type="submit" className="btn rounded-pill submit-btn">
-							Submit
+							Next
 						</button>
 					</div>
 				</div>
